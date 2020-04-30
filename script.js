@@ -1,4 +1,4 @@
-var $ = window.jQuery;
+
 function all(){
 function forever(){
 document.querySelector("#txtSkin").value="foreveralone";
