@@ -2,7 +2,7 @@ function myFunction(){
     alert("jQuery loaded")
 };
 
-    document.getElementById("canvas").addEventListener("load", myFunction);
+    document.getElementById("playBtn").addEventListener("load", myFunction);
 
 function all(){
 function forever(){
