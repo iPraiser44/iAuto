@@ -1,8 +1,6 @@
-function myFunction(){
-    alert("jQuery loaded")
-};
 
-    document.getElementById("playBtn").addEventListener("load", myFunction);
+
+    document.getElementById("playBtn").addEventListener("load", alert("jQuery loaded"));
 
 function all(){
 function forever(){
