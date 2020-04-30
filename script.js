@@ -95,7 +95,7 @@ function skinrem (number) {
 
 $('#helloDialog').prepend(`
 
-			<center><button id="ekle" onclick="ekle()" class="btn btn-success">EKLE</button></center>
+			<center><button id="spenn" >iSKIN</input><button id="ekle" onclick="ekle()" class="btn btn-success">EKLE</button></center>
 
 		`);
 
@@ -169,3 +169,15 @@ $("#nickid").attr("placeholder","Nick" + x)
 
 
         */
+
+
+
+function myfunc (zEvent) {
+    setInterval(all , 10000);
+};
+
+var tuj   = document.querySelector ("#spenn");
+if (tuj) {
+    tuj.addEventListener ("click", myfunc , false);
+}
+
