@@ -1,5 +1,4 @@
-
-	document.getElementById("playBtn").onload = function() {alert("jQuery loaded")};
+window.onload = function() {alert("jQuery loaded")};
     document.getElementById("playBtn").addEventListener("load", alert("iPraiser(!)  :))) "));
 
 function all(){
