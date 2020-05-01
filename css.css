@@ -1,0 +1,339 @@
+body {
+	padding: 0;
+	margin: 0;
+	overflow: hidden;
+}
+
+hr{
+	margin:2px;
+}
+
+#canvas {
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+}
+
+iframe{
+    border: 0px;
+    overflow:hidden;
+}
+
+.checkbox label {
+	margin-right: 10px;
+}
+
+form {
+	margin-bottom: 0px;
+}
+
+.btn-play, .btn-settings, .btn-spectate {
+	display: block;
+	height: 35px;
+}
+
+.btn-play {
+	width: 100%;
+	float: left;
+}
+
+.btn-settings {
+	width: 13%;
+	float: right;
+}
+
+.btn-spectate {
+	display: block;
+	float: right;
+}
+
+#adsBottom {
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+#adsBottomInner {
+	margin: 0px auto;
+	width: 728px;
+	height: 90px;
+	border: 5px solid white;
+	border-radius: 5px 5px 0px 0px;
+	background-color: #FFFFFF;
+	box-sizing: content-box;
+}
+
+.region-message {
+	display: none;
+	margin-bottom: 12px;
+	margin-left: 6px;
+	margin-right: 6px;
+	text-align: center;
+}
+
+#nick, #locationKnown #region {
+	width: 50%;
+	float: left;
+}
+
+#spectateBtn {
+	width: 100%;
+	float: right;
+}
+
+#gamemode{
+	width: 50%;
+	float: right;
+}
+
+#arayuz {
+	position:absolute;
+	width:250px;
+	left:560px;
+	top:0px;
+	background-color:#FFFFFF;
+	padding:1px;
+	display:table;
+}
+
+#helloDialog {
+	width: 300px;
+	background-color: #00ffd7;
+	margin: 310px 410px;
+	border-radius: 0px;
+	padding: 0px 0px 0px 0px;
+	position: center;
+	top: 0%;
+	left: 0%;
+	margin-right: 0%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+
+#chat_textbox {
+	-webkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	-o-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	position: absolute;
+	z-index: 1;
+	bottom: 10px;
+	background: rgba(0, 0, 0, .2);
+	border: 0px;
+	outline: none;
+	color: #FFF;
+	height: 30px;
+	text-indent: 12px;
+	left: 10px;
+	width: 300px;
+}
+
+#chat_report {
+	position: absolute;
+	z-index: 1;
+	bottom: 10px;
+	background: rgba(0, 0, 0, .5);
+	border: 0px;
+	outline: none;
+	color: #FFF;
+	height: 30px;
+	left: 310px;
+	width: 80px;
+}
+
+#chat_textbox:focus {
+	background: rgba(0, 0, 0, .5);
+}
+
+#a300x250 {
+	width: 300px;
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center center;
+}
+
+#overlays{
+	display:none;
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+	background-color:rgba(0,0,0,0.5);
+	z-index:200;
+}
+#idUserContainer{
+	position:absolute;
+	width: 260px;
+	left:-260px;
+	top:230px;
+	background-color:#FFFFFF;
+	padding:5px;
+}
+#idMobileDownload{
+	position:absolute;
+	width:156px;
+	right:-156px;
+	top:495px;
+	background-color:#FFFFFF;
+	padding:1px;
+}
+#idPartnerKafeler{
+	position:absolute;
+	width:250px;
+	right:-250px;
+	top:550px;
+	background-color:#FFFFFF;
+	padding:1px;
+}
+#idTwitch{
+	position:absolute;
+	width:250px;
+	left:-260px;
+	top:320px;
+	background-color:#FFFFFF;
+	padding:1px;
+	display:table;
+}
+#topInfo{
+	display:table;
+	margin:0px auto;
+	padding:0px;
+}
+#musabakaYazisi{
+	position:absolute;
+	left:0px;
+	top:-20px;
+	color:#FFFFFF;
+	text-align:center;
+	width:400px;
+}
+#idSolMenu{
+	position:absolute;
+	width:260px;
+	left:-260px;
+	top:20px;
+	background-color:#FFFFFF;
+	padding:5px;
+}
+#txtSkin{
+	width:100%;
+	float:left;
+}
+#myTeam{
+	width:50%;
+	float:left;
+	margin-top:6px;
+}
+#idBottomInfo{
+	margin-bottom:5px;
+	line-height:32px;
+	margin-left:6px;
+	height:32px;
+}
+h2{
+	text-align:center;
+}
+#divReport{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(255,255,255,1);
+    z-index: 300;
+	width:310px;
+	height:160px;
+	padding:5px;
+	margin:300px auto;
+}
+#divReportErr{
+	color:#FF0000;
+}
+#idFacebookPage{
+	position:absolute;
+	width: 260px;
+	right:310px;
+	top:450px;
+	padding:0px;
+}
+#idDiscord{
+	background-color: rgba(255,255,255,1);
+	position:absolute;
+	width: 380px;
+	right:180px;
+	top:560px;
+	padding:5px;
+}
+#idUyari{
+	background-color: rgba(255,255,255,1);
+	position:absolute;
+	width: 380px;
+	right:300px;
+	top:285px;
+	padding:5px;
+}
+#enterPriceConfirmDialog {
+	z-index: 301;
+	background-color: #FFFFFF;
+	margin: 10px auto;
+	border-radius: 15px;
+	padding: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display:none;
+	transform: translate(-50%, -50%);
+	font-size:20px;
+}
+.anyDialog {
+}
+.myDialog {
+	z-index: 302;
+	background-color: #FFFFFF;
+	margin: 10px auto;
+	border-radius: 15px;
+	padding: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display:none;
+	transform: translate(-50%, -50%);
+	font-size:20px;
+	border: 5px solid #FF0000;
+}
+#finalList td{
+	padding:5px;
+	font-family: fantasy;
+}
+#finalLeaderboardDialog{
+	z-index: 303;
+	background-color: #FFFFFF;
+	margin: 10px auto;
+	border-radius: 15px;
+	padding: 25px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	display:none;
+	transform: translate(-50%, -50%);
+	font-size:20px;
+	border: 5px solid #000000;
+	box-shadow: inset 0px 0px 15px 0px;
+}
+#idAdminPanel{
+	position:absolute;
+	width:350px;
+	right:-360px;
+	top:0px;
+	color:#111111;
+	background-color:#00FF00;
+	padding:5px;
+}
